@@ -1,0 +1,30 @@
+ @media all and (min-width:1170px){
+    .header{
+        height: 100vh;
+    }
+}
+@media all and (min-width:992px) and (max-width:1170px){
+    .header {
+        background-image: url('../obrazy/man-2.jpg');
+        height: 70 vh;
+    }
+    .header_one{
+        right: 0;
+        top: 0;
+        font-size: 15px;
+    }
+
+}
+ @media all and (max-width:992px){
+    .header{
+        height: 50vh;
+    }
+    .header_one{
+        font-size: 15px;
+        text-align: center;
+        color: black;
+        font-size: 8px;
+        right: 150px;
+        top: 100px;
+    }
+}  

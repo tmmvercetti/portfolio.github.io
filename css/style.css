@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+   }
+   
+   .header {
+    height: 100vh;
+    background-image: url('../obrazy/man-1.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.header_one{
+    position: absolute;
+    top: 50%;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Verdana', sans-serif;
+    padding: 40px;
+} 
+
